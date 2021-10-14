@@ -1,0 +1,27 @@
+.sidebar-container {
+  display: block;
+  width: 240px;
+  background-color: rgb(216, 207, 207);
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.task {
+  background-color: transparent;
+  padding: 8px 4px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px !important;
+  box-shadow: 0 0 1px 1px #a6a6a6;
+  color: #615f5f;
+  border-radius: 4px;
+}
+.task-selected {
+  background-color: #333933 !important;
+  color: white !important;
+}
+
+.btn-group {
+  margin-left: auto;
+  display: table;
+}

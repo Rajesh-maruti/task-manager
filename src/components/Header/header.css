@@ -1,0 +1,40 @@
+.header-container {
+  width: 100%;
+  padding: 4px 5px;
+  background-color: #0000007a;
+  display: flex;
+  
+}
+
+.pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.comapny-name {
+  font-size: large;
+  font-weight: 500;
+  color: white;
+  margin-right: auto;
+}
+
+.propfile-pic-coontainer {
+  clear: both;
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+
+}
+
+.profile-name {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 2xp;
+}
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}

@@ -1,0 +1,79 @@
+.table-container {
+  width: 100%;
+  padding: 10px;
+  padding-right: 10px;
+}
+
+.td-comments {
+  width: 100%;
+  text-align: center;
+  padding: 10px 3px;
+}
+
+.td-project {
+  width: 20%;
+  text-align: center;
+  padding: 2px 3px;
+}
+
+.td-task-delete,
+.td-task-edit {
+  min-width: 100px;
+  text-align: center;
+  padding: 2px 3px;
+}
+
+.td-task-name {
+  text-align: center;
+
+  width: 30%;
+  padding: 2px 3px;
+}
+
+.td-task-id {
+  width: 100px;
+  padding: 2px 3px;
+
+  text-align: center;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+thead {
+  background-color: #59595969;
+}
+
+thead > tr {
+  border: 1px solid black;
+}
+
+.td-task {
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 3px;
+}
+
+.task-btn-edit {
+  min-width: 70px;
+}
+
+.task-btn-delete {
+  min-width: 70px;
+}
+
+.ant-pagination {
+  display: none;
+}
+
+.add-btn {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.plusIcon {
+  color: green;
+  cursor: pointer;
+}
